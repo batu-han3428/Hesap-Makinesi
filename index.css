@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+}
+
+#anaRow{
+    height: 90%;
+}
+
+#sonuc{
+    display: block;
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    overflow-x:auto;
+    width:50%;
+    margin-left: auto;
+}
+
+#sonuc::-webkit-scrollbar {
+    height: 4px;
+    background-color: white;
+}
+
+#sonuc::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg,rgb(88, 83, 83),rgb(13, 202, 240), rgb(88, 83, 83));
+}
+
+#sonuc::-webkit-scrollbar-button {
+    display: none;
+}
+
+.header{
+    padding:5px 15px 5px 0;
+    background: rgb(38, 37, 38);
+    position: relative;
+}
+
+#bodyAnaRow .col div:hover:not(.bodyAltBolumAnaCol){
+    background-color: rgb(235, 234, 235);
+    cursor: pointer;
+}
+
+#AC:hover{
+    background-color:rgb(219, 83, 94) !important;
+}
+
+#esittir:hover{
+    background-color:rgb(54, 136, 249) !important;
+}
+
+#eklendi{
+    position: absolute;
+    top: 5px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    width:50%;
+    left:10px;
+}
